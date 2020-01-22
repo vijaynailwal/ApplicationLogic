@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplicationLogic">
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_opencalender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_calendar" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sum_of_integer"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_sumofinteger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sum_of_integer" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alpha_numeric_password" />
+
+
+    <Button
+        android:id="@+id/btn_alphanumeric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alphanumeric_password" />
+
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/limit_before_and_after_decimal"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edCommaSeperated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/comma_seperated_input"
+        android:inputType="numberDecimal" />
+
+
+    <TextView
+        android:id="@+id/tvamountFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

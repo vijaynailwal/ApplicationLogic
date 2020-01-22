@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ApplicationLogic</string>
+    <string name="decimalformat">#####,###.00</string>
+    <string name="alpha_numeric_password">alpha numeric password</string>
+    <string name="sum_of_integer">sum of integer</string>
+    <string name="limit_before_and_after_decimal">limit before and after decimal</string>
+    <string name="alphanumeric_password">alphanumeric password</string>
+    <string name="open_calendar">open calendar</string>
+    <string name="comma_seperated_input">comma seperated input</string>
+</resources>
